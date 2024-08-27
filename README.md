@@ -1,22 +1,24 @@
 # Zip of Death (ZOD)
+NOTE: This is for educational purposes only. Do not attempt to decompress this archive outside of a virtual machine, as attempting to unzip the file WILL cause your computer to crash.
+
 This is a decompression bomb (also known as zip of death or zip bomb) designed t
 o crash or render useless the program or system reading it.
 
 It is usually a small file for ease of transport and to avoid suspicion.
 However, when the file is unpacked, its contents are more than the system can
-handle. It is often employed to disable antivirus software, in order to create
+handle. It is often employed to disable antivirus software, to create
 an opening for more traditional viruses.
 
 Rather than hijacking the normal operation of the program, a zip bomb allows the
 program to work as intended, but the archive is carefully crafted so that
-unpacking it (e.g. by a virus scanner in order to scan for viruses) requires
-inordinate amounts of time, disk space or memory.
+unpacking it (e.g. by a virus scanner to scan for viruses) requires
+inordinate amounts of time, disk space, or memory.
 
 *Most modern antivirus programs can detect whether a file is a zip bomb, to
 avoid unpacking it.*
 
-### `42.zip`
-This repository contains the `42.zip` zip bomb, which is a zip file consisting
+### `ZIP BOMB - DO NOT DECOMPRESS.zip`
+This repository contains the `ZIP BOMB - DO NOT DECOMPRESS.zip` zip bomb, which is a zip file consisting
 of 42 kilobytes of compressed data, containing five layers of nested zip files
 in sets of 16, each bottom layer archive containing a 4.3 gigabyte
 (4 294 967 295 bytes; ~ 3.99 GiB) file for a total of 4.5 petabytes
